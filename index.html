@@ -7,13 +7,13 @@
         <div class ="container">
             <div class="button-menu">
                 <ul>
-                    <li class="logo"><img src="AJAKJAGO (3).png" alt="AjakJago Logo"></li>
-                    <li class="active">Home</li>
-                    <li>Services</li>
-                    <li>Form</li>
+                    <li class="logo"><a href="https://ajakjago.id"><img src="AJAKJAGO (3).png" alt="AjakJago Logo"></a></li>
+                    <li class="active"><a href="#info">Home</a></li>
+                    <li><a href="#layanan">Services</a></li>
+                    <li><a href="#orderform" class="form-button">Order</a></li>
                 </ul>
             </div>
-            <div class="informasi">
+            <div class="informasi" id="info">
                 <div class="text">
                     <h1>Laundry Mahasiswa</h1>
                     <p>adalah Lorem ipsum dolor sit amet, 
@@ -26,9 +26,62 @@
                 </div>
             </div>
         </div>
-        <div class = "services">
-            <div class="">
-
+        <div class="services" id="layanan">
+                <h2>Services</h2>
+                <div class="service-row">
+                    <div class="service-col">
+                        <p>Biasa Plan</p>
+                        <h4>Rp.P <span>/ kg</span></h4>
+                        <ul>
+                            <li>Complete in A days</li>
+                            <li>Clean and Dry not included</li>
+                            <li>Uses Cold water</li>
+                            <li>Not using Softener</li>
+                        </ul>
+                        <button>Buy</button>
+                    </div>
+                    <div class="service-col">
+                        <p>Jago Plan</p>
+                        <h4>Rp.Q <span>/ kg</span></h3>
+                        <ul>
+                            <li>Complete for B days</li>
+                            <li>Clean and Dry included</li>
+                            <li>Uses Cold / Warm water</li>
+                            <li>Not using Softener</li>
+                        </ul>
+                        <button>Buy</button>
+                    </div>
+                    <div class="service-col">
+                        <p>Jago Banget Plan</p>
+                        <h4>Rp.R <span>/ kg</span></h4>
+                        <ul>
+                            <li>Complete for C days</li>
+                            <li>Clean and Dry included</li>
+                            <li>Uses Cold / Warm water</li>
+                            <li>Using Softener</li>
+                        </ul>
+                        <button>Buy</button>
+                    </div>
+                </div>        
+            </div>
+        <div class="order-overlay" id="orderform">
+            <div class="wrapper">
+                <img class="checkout-logo" src="Checkout Illustration.png" alt="Order Here">
+                <div class="content">
+                    <div class="container1">
+                        <h2>Order Form</h2>
+                        <a href="#" class="close">&times;</a>
+                        <form>
+                            <label>Nama</label>
+                            <input type="text" placeholder="Enter your name">
+                            <label>NIM</label>
+                            <input type="text" placeholder="Enter your NIM">
+                            <label>Room</label>
+                            <input type="text" placeholder="Enter your Room Number">
+                            <input type="submit" value="Submit">
+                        </form>
+                    </div>
+                </div>
             </div>
         </div>
     </body>
